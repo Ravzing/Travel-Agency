@@ -10,4 +10,4 @@ To clone this tepository
 
 1: git clone https://github.com/Ravzing/Travel-Agency.git
 
-2: Open http://localhost:8000 in your web browser to explore the website.
+Also created a small program for image crop
