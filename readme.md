@@ -8,6 +8,6 @@ Our website is built using **HTML, CSS, and JavaScript**, ensuring a smooth and 
 
 To clone this tepository
 
-1: git clone https://github.com/Ravzing/Travel.git
+1: git clone https://github.com/Ravzing/Travel-Agency.git
 
 2: Open http://localhost:8000 in your web browser to explore the website.
