@@ -1,0 +1,9 @@
+Create the Destinations Gallery Page page that displays a gallery of 12 destination images. The first item in the gallery should link to the Individual Destination Page. It should visually change on hover to indicate that it is clickable.
+Create a single Individual Destination Page that displays at least one destination image, a 3-paragraph description and a form to book a trip to this destination, similar to the form on the landing page. This page should also include a link back to the Destinations Gallery Page.
+Create a Contact Form Page that allows users to submit inquiries to the travel agency. Ensure to include the following fields: name, email, phone number and a message textarea. Make all fields required before the form can be submitted. Add a submit button. When the form is submitted, user should be directed to the Contact Form Success Page.
+Create a Contact Form Success Page that is displayed upon submission of the contact form. This page should thank the user for their inquiry. Add a link back to the Homepage.
+Ensure that the new pages are visually consistent with the existing landing page and look right on mobile screens and on desktops.
+Include links to the Destinations page and Contact page (instead of a "Contact" button). Links should be in the header and the footer of the page.
+Update the homepage to include links to the destinations and contact form page.
+All pages should include the current page title in the header, for example "Contact Us", "Destinations" etc.
+Pages should use a smaller header section without the booking form.

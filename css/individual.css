@@ -1,0 +1,69 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+.div1 img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.div2 {
+  font-size: large;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 941px) {
+  .container-md {
+    max-width: 90%; /* Increase width usage */
+    margin: auto;
+  }
+
+  .parent {
+    display: flex;
+    /* align-items: center; */
+    gap: 20px; /* More spacing between image & text */
+  }
+
+  .div1 {
+    flex: 1; /* Let image take equal space */
+  }
+
+  .div1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .div2 {
+    flex: 1; /* Make text take equal space */
+    text-align: top;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .div1 img {
+    width: 100%;
+    height: auto; /* Ensures image scales properly */
+  }
+
+  .div2 {
+    padding: 10px;
+  }
+}
