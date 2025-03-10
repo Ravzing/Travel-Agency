@@ -6,7 +6,7 @@
 section h1 {
   text-align: center;
   font-family: "Dancing Script", cursive;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 section h1:not(:first-child) {
@@ -60,13 +60,13 @@ section h1:not(:first-child) {
 
 .destination .location strong {
   font-family: "Dancing Script", cursive;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .destination .location .country {
   /* the country seems to be using the same font as the header */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   opacity: 0.6;
 }
 
@@ -99,6 +99,6 @@ section h1:not(:first-child) {
   }
 
   .destination .location strong {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
