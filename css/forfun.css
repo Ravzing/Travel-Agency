@@ -104,3 +104,16 @@ svg {
     opacity: 1;
   }
 }
+
+.homepage-return {
+  opacity: 0;
+  margin-top: 20px;
+  animation: fadeInHomepage 1s ease-out forwards;
+  animation-delay: 3.6s;
+}
+
+@keyframes fadeInHomepage {
+  to {
+    opacity: 1;
+  }
+}

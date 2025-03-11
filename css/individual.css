@@ -67,3 +67,12 @@
     padding: 10px;
   }
 }
+
+#homepage {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#homepage button {
+  width: auto;
+}
