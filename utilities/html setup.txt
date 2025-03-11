@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Travel agency: Homepage</title>
+    <title>Travel agency: Paris</title>
     <meta name="description" content="Travel agency: Homepage" />
     <meta name="author" content="You" />
     <link
@@ -16,12 +16,14 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link href="./css/smaller-header.css" rel="stylesheet" type="text/css" />
-    <link href="./css/destinations.css" rel="stylesheet" type="text/css" />
-    <link href="./css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="/css/header.css" rel="stylesheet" type="text/css" />
+    <link href="/css/smaller-header.css" rel="stylesheet" type="text/css" />
+    <link href="/css/destinations.css" rel="stylesheet" type="text/css" />
+    <link href="/css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="/css/individual.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header id="header">
+    <header id="header" class="smaller-header">
       <div id="topbar">
         <div class="container-md wrap">
           <form class="input-group">
