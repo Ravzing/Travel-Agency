@@ -7,5 +7,3 @@ Include links to the Destinations page and Contact page (instead of a "Contact" 
 Update the homepage to include links to the destinations and contact form page.
 All pages should include the current page title in the header, for example "Contact Us", "Destinations" etc.
 Pages should use a smaller header section without the booking form.
-
-   TODO - clickable image to href
